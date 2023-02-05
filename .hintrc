@@ -1,0 +1,23 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "axe/name-role-value": "on"
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not ios_saf <= 14.8"
+  ],
+
+  "formatters": [
+    "json"
+  ],
+
+  "parsers": [
+    "javascript",
+    "html"
+  ]
+
+}

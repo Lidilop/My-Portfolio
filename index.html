@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <title>Personal Portfolio web</title>
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+    <!--main menu-->
+    <div class="container-header">
+        <header>
+            <div class="logo">
+                <a href="#">LIDIA</a>
+            </div>
+            <nav id="nav" >
+                <ul>
+                    <li><a href="#home" onclick="select()">HOME</a></li>
+                    <li><a href="#about"onclick="select()">ABOUT ME</a></li>
+                    <li><a href="#skills"onclick="select()">SKILLS</a></li>
+                    <li><a href="#resume"onclick="select()">RESUME</a></li>
+                    <li><a href="#portfolio"onclick="select()">PORTFOLIO</a></li>
+                    <li><a href="#contact"onclick="select()">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="showBackMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!--section home-->
+    <section id="home" class="home">
+        <div class="container-banner">
+            <div class="container-img">
+                <img src="./img/Personal Image.jpg" alt="Me">
+            </div>
+            <h1>LIDIA PULIDO</h1>
+            <h2>Web Developer -- Front-End</h2>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/lidia-p-10aba0210/" aria-label="personal portal"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Lidilop" aria-label="personal portal"><i class="fa-brands fa-github"></i></a>
+                <a href="#" aria-label="personal portal"><i class="fa-brands fa-skype"></i></a>
+                <a href="#" aria-label="personal portal"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!--section about me-->
+    <section id="about" class="about">
+        <div class="container-section">
+            <h2>About Me</h2>
+            <p><span>Hi, I'm Lidia Pulido Lopez. </span>
+
+                Welcome to my front-end development portfolio! I am a motivated and eager junior developer with a strong desire to create impactful and visually appealing websites. My skills in HTML, CSS, JavaScript,  React, UI design, career strategy, and more have allowed me to bring design concepts to life and create user-friendly, responsive websites.
+
+                In this portfolio, you will find a selection of my recent projects, each showcasing my ability to work with various designs styles and tools.
+
+                I am constantly looking to improve my skills and push the boundaries of what is possible in front-end development.
+
+                Thank you for taking the time to visit my portfolio and I look forward to the opportunity to discuss any potential projects with you.
+             </p>
+             <div class="fila">
+                <!--personal details-->
+                <div class="col">
+                    <h3>Personal Details</h3>
+                    <ul>
+                        <li>
+                            <strong>Email</strong>
+                            pulidolidialop@gmail.com
+                        </li>
+                        <li>
+                            <strong>Phone</strong>
+                            (+44) 079 3370 8385
+                        </li>
+                        <li>
+                            <strong>GitHub</strong>
+                            https://github.com/Lidilop
+                        </li>
+                        <li>
+                            <strong>Linkedin</strong>
+                            https://www.linkedin.com/in/lidia-p-10aba0210/
+                        </li>
+                        <li>
+                            <strong>Address</strong>
+                            London, UK.
+                        </li>
+
+                    </ul>
+                </div>
+                <!--hobbies-->
+                <div class="col">
+                    <h3>Hobbies</h3>
+                    <div class="container-hobbies">
+                        <div class="hobbies">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>TRAVEL</span>
+                        </div>
+                        <div class="hobbies">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>SPORTS</span>
+                        </div>
+
+                        <div class="hobbies">
+                            <i class="fa-solid fa-book"></i>
+                            <span>BOOKS</span>
+                        </div>
+                        <div class="hobbies">
+                            <i class="fa-solid fa-ticket-simple"></i>
+                            <span>CINEMA</span>
+                        </div>
+
+                    </div>
+                </div>
+             </div>
+             <button>
+                <a href="./Lidia CV IT.pdf" aria-label="CV"> Download CV </a><i class="fa-solid fa-download"></i>
+                <!--add cv-->
+                <span class="overlay"></span>
+             </button>
+        </div>
+    </section>
+
+    <!--section Skills-->
+    <section class="skills" id="skills">
+        <div class="container-section">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!--technical-->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="bar-skill">
+                            <div class="progress">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>JavaScript</span>
+                        <div class="bar-skill">
+                            <div class="progress">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Java</span>
+                        <div class="bar-skill">
+                            <div class="progress">
+                                <span>10%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="bar-skill">
+                            <div class="progress">
+                                <span>30%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>PHP</span>
+                        <div class="bar-skill">
+                            <div class="progress">
+                                <span>20%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>jQuery</span>
+                        <div class="bar-skill">
+                            <div class="progress">
+                                <span>20%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!--Professional-->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Communication</span>
+                        <div class="bar-skill">
+                            <div class="progress">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Team Work</span>
+                        <div class="bar-skill">
+                            <div class="progress">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creative</span>
+                        <div class="bar-skill">
+                            <div class="progress">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedication</span>
+                        <div class="bar-skill">
+                            <div class="progress">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--section resume-->
+    <section id="resume" class="resume">
+        <div class="container-section">
+            <h2>Resume</h2>
+            <div class="fila">
+                <div class="col left">
+                    <h3>Education</h3>
+                    <div class="item lef">
+                        <h4>Front-End Developer </h4>
+                        <span class="center"> Scrimba</span><br>
+                        <span class="date">2023 (Studying) </span>
+                        <p>This career path will turn me into a Front-End developer. I am learning HTML, CSS, JavaScript, React, UI design, career strategy, and more.</p>
+                        <div class="conectori">
+                            <div class="circuloi">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item lef">
+                        <h4>Coding traineeship - Web Developer</h4>
+                        <span class="center"> IT Career Switch</span>
+                        <span class="date">2021 - 2023 (Studying)</span>
+                        <span class="center"> Certificates Codecademy</span> <br>
+                        <p> HTML - CSS - JavaScript - jQuery - PHP - C# - Python - Java </p> <br>
+                        <p>A Web Developer, or Programmer, is an IT professional who creates and maintains web applications and websites. Their responsibilities include designing, creating and maintaining websites through programming languages such as HTML, CSS and JavaScript.  Web Developers commonly work with Web Designers to create the user interface of a website and other professionals to create and test applications. </p>
+                        <div class="conectori">
+                            <div class="circuloi">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item lef">
+                        <h4>HND - Protocol & Organization of Events</h4>
+                        <span class="center"> ISPE</span>
+                        <span class="date">2017</span>
+                        <div class="conectori">
+                            <div class="circuloi">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item lef">
+                        <h4>HND - Social Integration Studies</h4>
+                        <span class="center"> Centre Roca </span>
+                        <span class="date">2010</span>
+                        <div class="conectori">
+                            <div class="circuloi">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- work history-->
+                <div class="col right">
+                    <h3>Work History </h3>
+                    <div class="item rig">
+                        <h4>Customer Patient Advisor</h4>
+                        <span class="center"> Access Fertility</span>
+                        <span class="date">2022 - Present</span>
+
+                        <div class="conectord">
+                            <div class="circulod">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item rig">
+                        <h4>General Assistant</h4>
+                        <span class="center"> Hammerson PLC</span>
+                        <span class="date">2019 - 2022</span>
+
+                        <div class="conectord">
+                            <div class="circulod">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item rig">
+                        <h4>General Assistant</h4>
+                        <span class="center"> Lexington Catering</span>
+                        <span class="date">2018 - 2019</span>
+                        <div class="conectord">
+                            <div class="circulod">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item rig">
+                        <h4>Assistant Manager</h4>
+                        <span class="center"> Jamón-Jamón</span>
+                        <span class="date">2017 - 2018</span>
+                        <div class="conectord">
+                            <div class="circulod">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item rig">
+                        <h4>General Assistant</h4>
+                        <span class="center"> Evolve Hospitality</span>
+                        <span class="date">2016 - 2017</span>
+                        <div class="conectord">
+                            <div class="circulod">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item rig">
+                        <h4>Call Center Agent</h4>
+                        <span class="center"> El Corte Ingles, SPAIN</span>
+                        <span class="date">2014 - 2016</span>
+                        <div class="conectord">
+                            <div class="circulod">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item rig">
+                        <h4>Accounts Administrator</h4>
+                        <span class="center"> Center-Sat, SPAIN</span>
+                        <span class="date">2010 - 2014</span>
+                        <div class="conectord">
+                            <div class="circulod">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--section portfolio-->
+    <section id="portfolio" class="portfolio">
+        <div class="container-section">
+
+                <h2>Portfolio</h2>
+                <div class="gallery">
+                    <div class="project">
+                            <img src="./img/excursion img.png"  alt="basics">
+
+                        <div class="overlay">
+                            <h3>Excursion</h3>
+                            <p>First Project</p>
+                            <div class="link">
+                                <a href="https://resonant-gumdrop-ec1c1a.netlify.app/" aria-label="personal pag"><i class="fa-regular fa-hand-pointer"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="project">
+                        <img src="./img/fotomat.png" alt="Images work">
+                        <div class="overlay">
+                            <h3>Fotomatic</h3>
+                            <p>Second Project</p>
+                            <div class="link">
+                                <a href="https://bespoke-mandazi-aaf015.netlify.app/" aria-label="personal pag"><i class="fa-regular fa-hand-pointer"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="project">
+                        <img src="./img/tea-cozy.png" alt="html&css">
+                        <div class="overlay">
+                            <h3>Tea Cozy</h3>
+                            <p>Third Project</p>
+                            <div class="link">
+                                <a href="https://mellow-florentine-b419cb.netlify.app/" aria-label="personal pag"><i class="fa-regular fa-hand-pointer"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="project">
+                        <img src="./img/mi proyecto.png" alt="HTML & CSS & JavaScript">
+                        <div class="overlay">
+                            <h3>Portfolio</h3>
+                            <p>Fourth Project</p>
+                            <div class="link">
+                                <a href="#home" onclick="select()" aria-label="personal pag"><i class="fa-regular fa-hand-pointer"></i></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <!--section contact-->
+    <section id="contact" class="contact">
+        <div class="container-section">
+            <h2>Contact</h2>
+            <div class="fila">
+                <!--Form-->
+                <div class="col">
+                    <input type="text" placeholder="Your Name">
+                    <input type="text" placeholder="Phone Number">
+                    <input type="text" placeholder="Email Address">
+                    <input type="text" placeholder="Question">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    <button>
+                        Send A Message  <i class="fa-sharp fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!--map-->
+                <div class="col">
+                    <img src="./img/contact.jpg" alt="Ubi">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                 London, UK
+                            </li>
+                            <li>
+                                <i class="fa-light fa-mobile"></i>
+                                +44 (0)7933708385
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                pulidolidialop@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer>
+        <a href="#home" aria-label="return main" class="up">
+            <i class="fa-sharp fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#" aria-label="social media"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#" aria-label="social media"><i class="fa-brands fa-github"></i></a>
+            <a href="#" aria-label="social media"><i class="fa-brands fa-skype"></i></a>
+            <a href="#" aria-label="social media"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
