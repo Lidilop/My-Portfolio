@@ -168,6 +168,10 @@ html{
     color: #3de0e0;
     width: 130px;
 }
+.about .fila .col ul a {
+    color: inherit;
+    text-decoration: none;
+}
 .about .fila .col .container-hobbies {
     display: flex;
     flex-wrap: wrap;
