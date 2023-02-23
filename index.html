@@ -418,15 +418,17 @@
             <div class="fila">
                 <!--Form-->
                 <div class="col">
-                    <input type="text" placeholder="Your Name">
-                    <input type="text" placeholder="Phone Number">
-                    <input type="text" placeholder="Email Address">
-                    <input type="text" placeholder="Question">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
-                    <button>
-                        Send A Message  <i class="fa-sharp fa-solid fa-paper-plane"></i>
-                        <span class="overlay"></span>
-                    </button>
+                    <form name="contact-form" method="post" action="./process.php">
+                        <input type="text" name="name" placeholder="Your Name">
+                        <input type="text" name="phone" placeholder="Phone Number">
+                        <input type="text" name="email" placeholder="Email Address">
+                        <input type="text" name="question" placeholder="Question">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                        <button type="submit">
+                            Send A Message  <i class="fa-sharp fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button>
+                    </form>
                 </div>
                 <!--map-->
                 <div class="col">
