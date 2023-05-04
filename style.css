@@ -349,6 +349,15 @@ html{
     100%{width: 20%;}
 }
 
+.skills .skill .webflow {
+    width: 0%;
+    animation: 2s webflow forwards;
+}
+@keyframes webflow {
+    0%{width: 0%;}
+    100%{width: 30%;}
+}
+
 
 /*professional*/
 .skills .skill .communication {
@@ -378,14 +387,7 @@ html{
     100%{width: 85%;}
 }
 
-.skills .skill .dedication {
-    width: 0%;
-    animation: 2s dedication forwards;
-}
-@keyframes dedication {
-    0%{width: 0%;}
-    100%{width: 90%;}
-}
+
 
 
 /*section Resume*/
