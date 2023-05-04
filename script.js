@@ -30,11 +30,11 @@ function efectoHabilidades(){
         habilidades[3].classList.add("python");
         habilidades[4].classList.add("php");
         habilidades[5].classList.add("jquery");
+        habilidades[6].classList.add("webflow");
 
-        habilidades[6].classList.add("communication");
-        habilidades[7].classList.add("teamwork");
-        habilidades[8].classList.add("creative");
-        habilidades[9].classList.add("dedication");
+        habilidades[7].classList.add("communication");
+        habilidades[8].classList.add("teamwork");
+        habilidades[9].classList.add("creative");
 
 
     }
