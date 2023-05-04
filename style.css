@@ -348,6 +348,14 @@ html{
     0%{width: 0%;}
     100%{width: 20%;}
 }
+.skills .skill .webflow {
+    width: 0%;
+    animation: 2s webflow forwards;
+}
+@keyframes webflow {
+    0%{width: 0%;}
+    100%{width: 30%;}
+}
 
 /*professional*/
 .skills .skill .communication {
