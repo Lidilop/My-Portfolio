@@ -523,7 +523,7 @@ html{
    
     margin: 0 auto;
     width: 90%;
-    display: grid;
+            display: grid;
     grid-template-columns: repeat(3, auto);
     grid-gap: 3em;
 
@@ -750,7 +750,7 @@ footer .up {
      .about .fila .col .container-hobbies {
    
         width: 90%;
-        display: grid;
+                display: grid;
         grid-template-columns: repeat(2, auto);
         grid-gap: 1em;
     }
