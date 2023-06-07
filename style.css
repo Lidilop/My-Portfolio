@@ -173,11 +173,8 @@ html{
     text-decoration: none;
 }
 .about .fila .col .container-hobbies {
-   
-    width: 90%;
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    grid-gap: 1em;
+    display: flex;
+    flex-wrap: wrap;
 }
 .about .fila .col .container-hobbies .hobbies {
     width: 100px;
@@ -750,6 +747,14 @@ footer .up {
 }
 @media screen and (max-width:700px) {
 
+     .about .fila .col .container-hobbies {
+   
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-gap: 1em;
+    }
+    
     .about .fila {
         display: block;
     }
