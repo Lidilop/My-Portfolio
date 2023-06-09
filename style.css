@@ -315,9 +315,9 @@ html{
 
 .skills .skill .uidesign {
     width: 0%;
-    animation: 2s ui design forwards;
+    animation: 2s uidesign forwards;
 }
-@keyframes ui design {
+@keyframes uidesign {
     0%{width: 0%;}
     100%{width: 60%;}
 }
