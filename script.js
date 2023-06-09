@@ -26,7 +26,7 @@ function efectoHabilidades(){
         let habilidades = document.getElementsByClassName("progress");
         habilidades[0].classList.add("htmlcss");
         habilidades[1].classList.add("javascript");
-        habilidades[2].classList.add("java");
+        habilidades[2].classList.add("uidesign");
         habilidades[3].classList.add("python");
         habilidades[4].classList.add("php");
         habilidades[5].classList.add("jquery");
