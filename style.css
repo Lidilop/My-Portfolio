@@ -313,13 +313,13 @@ html{
 }
 
 
-.skills .skill .java {
+.skills .skill .uidesign {
     width: 0%;
-    animation: 2s java forwards;
+    animation: 2s ui design forwards;
 }
-@keyframes java {
+@keyframes ui design {
     0%{width: 0%;}
-    100%{width: 10%;}
+    100%{width: 60%;}
 }
 
 .skills .skill .python {
